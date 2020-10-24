@@ -51,7 +51,6 @@ void print_environmental_variables(char* param, char* env[], bool is_in_silent_m
             cout << "= " << endl;
             print_variable_values(env_str, start_of_string, end_of_string);
         }
-        
         i++;
     }
 
@@ -71,5 +70,4 @@ int main(int argc, char* argv[], char* env[])
             print_environmental_variables(argv[i], env, is_in_silent_mode);
         }
     }
-
 }
